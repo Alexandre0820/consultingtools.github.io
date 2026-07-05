@@ -109,8 +109,8 @@
                 <!-- Navigation Links -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#tools" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_tools">工具库</a>
-                    <a href="#news" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_news">热点动态</a>
                     <a href="#usecases" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_usecases">场景落地</a>
+                    <a href="#fde-training" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_fde">FDE 培训</a>
                     <a href="#join-community" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_community">申请加入社区</a>
                     <a href="#skills" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_skills">咨询技能包</a>
                     <a href="#enterprise-cta" class="text-gray-600 hover:text-primary-600 transition" data-i18n="nav_enterprise">赋能企业AI转型</a>
@@ -236,8 +236,8 @@
 
             <div class="mt-6 flex flex-wrap justify-center gap-3 text-sm">
                 <a href="#tools" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_tools">看工具</a>
-                <a href="#news" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_news">看热点</a>
                 <a href="#usecases" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_usecases">看场景</a>
+                <a href="#fde-training" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_fde">FDE 培训</a>
                 <a href="#skills" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_skills">技能包</a>
                 <a href="#join-community" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_community">申请加入社区</a>
                 <a href="#enterprise-cta" class="px-4 py-2 rounded-full bg-white text-primary-700 hover:bg-primary-50 border border-primary-100 shadow-sm transition" data-i18n="quick_nav_enterprise">企业AI服务</a>
@@ -345,21 +345,6 @@
         </div>
     </section>
 
-    <!-- Tool News Section -->
-    <section id="news" class="py-16 md:py-24 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <span class="inline-block px-3 py-1 rounded-full bg-primary-100 text-primary-700 text-sm font-semibold" data-i18n="news_label">近期动态</span>
-                <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mt-4 mb-4" data-i18n="news_title">工具热点动态</h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-i18n="news_subtitle">
-                    基于我们收录的工具，持续追踪产品更新、融资进展、生态变化和可复用的咨询落地信号。
-                </p>
-            </div>
-
-            <div id="newsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-        </div>
-    </section>
-
     <!-- Use Case Section -->
     <section id="usecases" class="py-16 md:py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -372,6 +357,147 @@
             </div>
 
             <div id="useCaseGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-8"></div>
+        </div>
+    </section>
+
+    <!-- FDE Training Section -->
+    <section id="fde-training" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="inline-block px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-sm font-semibold" data-i18n="fde_badge">培训课程</span>
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mt-4 mb-4" data-i18n="fde_title">FDE 培训大纲</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-i18n="fde_intro">
+                    FDE 课程是一套面向真实企业场景的 AI 落地交付训练。它不只关注模型和技术本身，更强调如何识别业务问题、设计方案、接入系统、推进项目、实现上线，并在复杂组织中真正把 AI 项目交付出来。
+                </p>
+            </div>
+
+            <!-- FDE Course Modules -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <!-- Module 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 flex items-center justify-center mb-4">
+                        <span class="text-indigo-600 font-heading font-bold text-lg">01</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m1_title">FDE 角色认知</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m1_desc">
+                        搞清楚什么是 FDE，与 AI Engineer、Solutions Architect、售前、实施顾问有什么区别，为什么 AI 时代需要这个角色。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 text-xs font-medium">认知层</span>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center mb-4">
+                        <span class="text-blue-600 font-heading font-bold text-lg">02</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m2_title">AI 应用架构</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m2_desc">
+                        LLM 应用基本架构、Prompt / Context Engineering、RAG、Agent 与工作流设计、效果评估、模型容错与稳定性设计。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 text-xs font-medium">技术层</span>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-cyan-50 flex items-center justify-center mb-4">
+                        <span class="text-cyan-600 font-heading font-bold text-lg">03</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m3_title">企业系统接入</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m3_desc">
+                        飞书、企微、钉钉等协作系统接入，CRM、ERP、工单系统集成，权限审批流和数据流设计。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-cyan-50 text-cyan-600 text-xs font-medium">接入层</span>
+                    </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-violet-50 flex items-center justify-center mb-4">
+                        <span class="text-violet-600 font-heading font-bold text-lg">04</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m4_title">客户 Discovery 与问题定义</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m4_desc">
+                        需求访谈、高价值 AI 场景识别、问题适配判断、试点范围定义、业务问题到技术任务的翻译。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-violet-50 text-violet-600 text-xs font-medium">方法论</span>
+                    </div>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center mb-4">
+                        <span class="text-emerald-600 font-heading font-bold text-lg">05</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m5_title">方案设计与交付推进</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m5_desc">
+                        PoC 到 Production 的推进路径、方案设计与优先级排序、项目节奏管理、验收指标与风险管理。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-600 text-xs font-medium">交付层</span>
+                    </div>
+                </div>
+
+                <!-- Module 6 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center mb-4">
+                        <span class="text-amber-600 font-heading font-bold text-lg">06</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m6_title">安全、治理与上线条件</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m6_desc">
+                        数据权限与访问控制、审计留痕与合规意识、模型风险与输出治理、企业安全与稳定性要求。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-amber-50 text-amber-600 text-xs font-medium">治理层</span>
+                    </div>
+                </div>
+
+                <!-- Module 7 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center mb-4">
+                        <span class="text-rose-600 font-heading font-bold text-lg">07</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m7_title">行业场景与案例拆解</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m7_desc">
+                        软件公司、客服、销售与售前、内部知识管理、交付与客户成功等真实行业场景。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-rose-50 text-rose-600 text-xs font-medium">场景层</span>
+                    </div>
+                </div>
+
+                <!-- Module 8 -->
+                <div class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
+                    <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center mb-4">
+                        <span class="text-teal-600 font-heading font-bold text-lg">08</span>
+                    </div>
+                    <h3 class="font-heading text-lg font-bold text-gray-900 mb-2" data-i18n="fde_m8_title">实战项目与作品集</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed" data-i18n="fde_m8_desc">
+                        真实或模拟项目演练、从 Discovery 到部署的完整练习、小组协作复盘、案例展示与作品集沉淀。
+                    </p>
+                    <div class="mt-4 pt-4 border-t border-gray-100">
+                        <span class="inline-block px-2 py-0.5 rounded-full bg-teal-50 text-teal-600 text-xs font-medium">实战层</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="mt-12 text-center">
+                <a href="mailto:contact-growth@proton.me"
+                   class="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-xl font-semibold shadow-card transition">
+                    <span data-i18n="fde_cta">了解 FDE 培训详情</span>
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -1125,8 +1251,8 @@
         const translations = {
             zh: {
                 nav_tools: "工具库",
-                nav_news: "热点动态",
                 nav_usecases: "场景落地",
+                nav_fde: "FDE 培训",
                 nav_community: "申请加入社区",
                 nav_enterprise: "赋能企业AI转型",
                 nav_about: "关于我们",
@@ -1184,8 +1310,8 @@
                 footer_subtitle: "Professional toolkit for consultants",
                 search_placeholder: "搜索工具名称或关键词...",
                 quick_nav_tools: "看工具",
-                quick_nav_news: "看热点",
                 quick_nav_usecases: "看场景",
+                quick_nav_fde: "FDE 培训",
                 quick_nav_skills: "技能包",
                 quick_nav_community: "申请加入社区",
                 quick_nav_enterprise: "企业AI服务",
@@ -1193,8 +1319,26 @@
                 tools_subtitle: "我们为管理咨询和战略咨询顾问精心筛选了以下工具，帮助您提升工作效率、优化客户交付。",
                 loading: "加载工具数据中...",
                 no_results: "未找到匹配的工具，请尝试其他关键词。",
-                news_label: "近期动态",
-                news_title: "工具热点动态",
+                fde_badge: "培训课程",
+                fde_title: "FDE 培训大纲",
+                fde_intro: "FDE 课程是一套面向真实企业场景的 AI 落地交付训练。它不只关注模型和技术本身，更强调如何识别业务问题、设计方案、接入系统、推进项目、实现上线，并在复杂组织中真正把 AI 项目交付出来。",
+                fde_m1_title: "FDE 角色认知",
+                fde_m1_desc: "搞清楚什么是 FDE，与 AI Engineer、Solutions Architect、售前、实施顾问有什么区别，为什么 AI 时代需要这个角色。",
+                fde_m2_title: "AI 应用架构",
+                fde_m2_desc: "LLM 应用基本架构、Prompt / Context Engineering、RAG、Agent 与工作流设计、效果评估、模型容错与稳定性设计。",
+                fde_m3_title: "企业系统接入",
+                fde_m3_desc: "飞书、企微、钉钉等协作系统接入，CRM、ERP、工单系统集成，权限审批流和数据流设计。",
+                fde_m4_title: "客户 Discovery 与问题定义",
+                fde_m4_desc: "需求访谈、高价值 AI 场景识别、问题适配判断、试点范围定义、业务问题到技术任务的翻译。",
+                fde_m5_title: "方案设计与交付推进",
+                fde_m5_desc: "PoC 到 Production 的推进路径、方案设计与优先级排序、项目节奏管理、验收指标与风险管理。",
+                fde_m6_title: "安全、治理与上线条件",
+                fde_m6_desc: "数据权限与访问控制、审计留痕与合规意识、模型风险与输出治理、企业安全与稳定性要求。",
+                fde_m7_title: "行业场景与案例拆解",
+                fde_m7_desc: "软件公司、客服、销售与售前、内部知识管理、交付与客户成功等真实行业场景。",
+                fde_m8_title: "实战项目与作品集",
+                fde_m8_desc: "真实或模拟项目演练、从 Discovery 到部署的完整练习、小组协作复盘、案例展示与作品集沉淀。",
+                fde_cta: "了解 FDE 培训详情",
                 nav_skills: "咨询技能包",
                 skills_label: "技能包",
                 skills_title: "咨询行业 AI 技能包",
@@ -1202,8 +1346,6 @@
                 skills_loading: "加载技能列表中...",
                 skills_view_all: "查看全部技能",
                 skills_view: "查看技能",
-                news_subtitle: "基于我们收录的工具，持续追踪产品更新、融资进展、生态变化和可复用的咨询落地信号。",
-                news_source: "来源",
                 usecases_label: "场景落地",
                 usecases_title: "咨询顾问区块式 Use Cases",
                 usecases_subtitle: "不再是单点工具展示，而是按咨询项目场景把工具组合成可执行工作流。",
@@ -1222,8 +1364,8 @@
             },
             en: {
                 nav_tools: "Tools",
-                nav_news: "News",
                 nav_usecases: "Use Cases",
+                nav_fde: "FDE Training",
                 nav_community: "Join Community",
                 nav_enterprise: "Empowering Enterprise AI Transformation",
                 nav_about: "About",
@@ -1281,8 +1423,8 @@
                 footer_subtitle: "Professional toolkit for consultants",
                 search_placeholder: "Search tools or keywords...",
                 quick_nav_tools: "View Tools",
-                quick_nav_news: "View News",
                 quick_nav_usecases: "View Use Cases",
+                quick_nav_fde: "FDE Training",
                 quick_nav_skills: "Skills Pack",
                 quick_nav_community: "Join Community",
                 quick_nav_enterprise: "Enterprise AI Services",
@@ -1290,8 +1432,26 @@
                 tools_subtitle: "We've carefully selected these tools for management and strategy consultants to improve efficiency and optimize client delivery.",
                 loading: "Loading tools...",
                 no_results: "No matching tools found. Try different keywords.",
-                news_label: "Recent Updates",
-                news_title: "Tool Hot Topics",
+                fde_badge: "Training Program",
+                fde_title: "FDE Training Curriculum",
+                fde_intro: "FDE is a hands-on AI delivery training program built for real enterprise scenarios. It goes beyond models and technology—focusing on identifying business problems, designing solutions, integrating systems, driving projects, and achieving production deployment in complex organizations.",
+                fde_m1_title: "FDE Role Understanding",
+                fde_m1_desc: "What is FDE, how it differs from AI Engineer, Solutions Architect, pre-sales, and implementation consultants, and why this role matters in the AI era.",
+                fde_m2_title: "AI Application Architecture",
+                fde_m2_desc: "LLM application architecture, Prompt / Context Engineering, RAG, Agent & workflow design, evaluation, and model fault tolerance.",
+                fde_m3_title: "Enterprise System Integration",
+                fde_m3_desc: "Integration with Feishu, WeCom, DingTalk, CRM, ERP, ticket systems, permissions, approval flows, and data pipeline design.",
+                fde_m4_title: "Customer Discovery & Problem Definition",
+                fde_m4_desc: "Requirements interviews, identifying high-value AI scenarios, problem-fit assessment, pilot scope definition, and translating business problems into technical tasks.",
+                fde_m5_title: "Solution Design & Delivery",
+                fde_m5_desc: "PoC-to-production pathway, solution design & prioritization, project cadence management, success metrics & risk management.",
+                fde_m6_title: "Security, Governance & Go-Live Criteria",
+                fde_m6_desc: "Data permissions & access control, audit trails & compliance, model risk & output governance, enterprise security requirements.",
+                fde_m7_title: "Industry Scenarios & Case Studies",
+                fde_m7_desc: "Real scenarios across software companies, customer service, sales & pre-sales, internal knowledge management, and delivery & customer success.",
+                fde_m8_title: "Capstone Project & Portfolio",
+                fde_m8_desc: "Real or simulated project exercises, end-to-end practice from discovery to deployment, team collaboration & review, case presentation & portfolio building.",
+                fde_cta: "Learn More About FDE Training",
                 nav_skills: "Consulting Skills",
                 skills_label: "Skills Pack",
                 skills_title: "Consulting Industry AI Skills Pack",
@@ -1299,8 +1459,6 @@
                 skills_loading: "Loading skills list...",
                 skills_view_all: "View All Skills",
                 skills_view: "View Skill",
-                news_subtitle: "Based on the tools we curate, we track product updates, funding progress, ecosystem changes, and reusable consulting adoption signals.",
-                news_source: "Source",
                 usecases_label: "Use Cases",
                 usecases_title: "Block-Based Use Cases for Consultants",
                 usecases_subtitle: "Instead of showing tools one by one, we combine them into executable workflows by consulting project scenario.",
@@ -1359,29 +1517,6 @@
 
         function categoryText(category) {
             return categoryLabels[currentLang]?.[category] || category;
-        }
-
-        function renderNews() {
-            const newsGrid = document.getElementById('newsGrid');
-            if (!newsGrid) return;
-            newsGrid.innerHTML = toolNews.map(item => `
-                <article class="bg-white rounded-2xl p-6 shadow-card border border-gray-100 hover:shadow-card-hover transition">
-                    <div class="flex items-start justify-between gap-4 mb-4">
-                        <div>
-                            <p class="text-xs font-semibold text-primary-600 mb-2">${item.tool}</p>
-                            <h3 class="font-heading text-lg font-bold text-gray-900 leading-snug">${currentLang === 'zh' ? item.title : item.title_en}</h3>
-                        </div>
-                        <span class="px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-medium whitespace-nowrap">${item.date}</span>
-                    </div>
-                    <p class="text-sm text-gray-600 leading-relaxed mb-5">${currentLang === 'zh' ? item.summary : item.summary_en}</p>
-                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700">
-                        ${translations[currentLang].news_source}: ${item.source}
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </article>
-            `).join('');
         }
 
         function renderUseCases() {
@@ -1449,7 +1584,6 @@
 
             // Re-render dynamic sections to update language
             renderTools();
-            renderNews();
             renderSkills();
             renderUseCases();
         }
@@ -1725,14 +1859,12 @@
             if (document.readyState === 'loading') {
                 document.addEventListener('DOMContentLoaded', () => {
                     renderTools();
-                    renderNews();
                     renderUseCases();
                     renderSkills();
                     setupEventListeners();
                 });
             } else {
                 renderTools();
-                renderNews();
                 renderUseCases();
                 renderSkills();
                 setupEventListeners();
