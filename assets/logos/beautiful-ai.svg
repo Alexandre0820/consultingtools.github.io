@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" fill="none">
+  <!-- Beautiful.ai Logo -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Icon: Presentation slide with AI sparkle -->
+  <rect x="2" y="4" width="28" height="22" rx="3" fill="url(#grad)" opacity="0.9"/>
+  <rect x="5" y="7" width="22" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="5" y="13" width="14" height="3" rx="1" fill="white" opacity="0.7"/>
+  <rect x="5" y="18" width="18" height="3" rx="1" fill="white" opacity="0.7"/>
+  <!-- AI sparkle -->
+  <circle cx="26" cy="8" r="3" fill="#FBBF24"/>
+  <path d="M26 4L26.8 6.4L29 6L27.2 7.6L28 10L26 8.4L24 10L24.8 7.6L23 6L25.2 6.4Z" fill="white"/>
+  <!-- Text -->
+  <text x="36" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1F2937">Beautiful</text>
+  <text x="102" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#4F46E5">.ai</text>
+</svg>
